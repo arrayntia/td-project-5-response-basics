@@ -1,0 +1,145 @@
+body{
+    width: 100%;
+    background-color: #EBEBEB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #157293;
+    color: #EBEBEB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    padding: 0% 7%;
+    }
+
+ .navbar{
+    background-color: #fff;
+    position: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    width: auto;
+    /* margin: auto; */
+    justify-content: space-evenly;
+ } 
+
+.navbar .fit_img{
+    margin-top: 60px;
+}
+
+.navbar .view{
+ /* font-weight: 10px; */
+ margin-top: 30px;
+}
+
+.navbar .view h2{
+    color: #157293;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.navbar p{
+    font-size: 20px;
+    font-style: normal;
+    direction: inherit;
+}
+
+.call-me h3{
+    color: #157293;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.call-me{
+display: flex;
+flex-wrap: wrap;
+position: relative;
+justify-content: space-around;
+width: auto;
+align-items: baseline;
+}
+
+.first-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.second-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.third-group{
+    background-color: #4D9AAD;  
+}
+
+.third-group .eig-img {
+margin-left: 85%;
+padding-left: 50px;
+}
+
+.third-group .logo p {
+margin-top: 20px;
+color: #fff;
+font-weight: 50px;
+font-size: 30px;
+ } 
+
+.third-group .logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    /* margin-left: auto; */
+}
+
+.third-group .logo .logo2{
+    position: inherit;
+}
+.footer{
+    padding: 5%;
+    background-color: #157293;
+    color: white;
+    text-align: center;
+    }
+
+    .footer img{
+    width: 20px;
+    height: 20px;  
+    padding: 10px;  
+    }
+
+    .footer .logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    }
+
+    .footer a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+   .third-group .eig-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.nin-img{
+display: none;
+}    
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }  
+}
